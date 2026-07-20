@@ -1,0 +1,24 @@
+generated: '2026-07-17'
+method: searched
+source: https://docs.1010data.com/DynamicAPI/DynamicAPI-Intro.html
+docs: https://docs.1010data.com/DynamicAPI/DynamicAPI-Intro.html
+note: >-
+  Derived from the 1010data Dynamic API and XML API documentation; no OpenAPI
+  securityScheme definition is published by the provider, so this profile is
+  captured from the auth documentation rather than mechanically from a spec.
+summary:
+  types: [session]
+  api_key_in: []
+  oauth2_flows: []
+schemes:
+- name: SessionLogin
+  type: session
+  description: >-
+    Authentication to the Dynamic API is session-based. A client logs in with
+    its usual Insights Platform credentials at the /api/!login endpoint (which
+    can also be driven via the GUI), establishing a session. Subsequent calls
+    operate against stateful QuickApp "environments" identified by a numeric tag
+    returned from the /api/new endpoint. The XML API uses the same
+    credential-based session model over HTTP.
+  sources:
+  - https://docs.1010data.com/DynamicAPI/DynamicAPI-Intro.html
