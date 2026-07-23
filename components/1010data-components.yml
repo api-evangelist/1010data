@@ -1,0 +1,26 @@
+generated: '2026-07-17'
+method: searched
+source: https://www.1010data.com/resource/technical-interfaces/
+description: >-
+  Client-side / embedded surfaces and connectors that let end users and BI tools
+  work against the 1010data Insights Platform without writing directly to the
+  HTTP APIs. Distinct from the server-side SDKs catalogued in packages/.
+families:
+- family: Productivity add-ins
+  components:
+  - name: Excel Add-in
+    description: Add-in for uploading data to and executing 1010data queries from Microsoft Excel.
+    url: https://www.1010data.com/resource/technical-interfaces/
+- family: BI connectors
+  components:
+  - name: Power BI connector
+    description: Connector for querying the Insights Platform from Microsoft Power BI.
+    url: https://www.1010data.com/resource/technical-interfaces/
+  - name: Tableau connector
+    description: Connector for querying the Insights Platform from Tableau.
+    url: https://www.1010data.com/resource/technical-interfaces/
+- family: Embedded application surfaces
+  components:
+  - name: QuickApps
+    description: Framework for building simple embedded applications on top of Insights Platform data and queries.
+    url: https://docs.1010data.com/index.html

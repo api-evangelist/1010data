@@ -1,0 +1,23 @@
+generated: '2026-07-17'
+method: searched
+source: https://docs.1010data.com/DynamicAPI/DynamicAPI-Intro.html
+note: >-
+  Captured from the 1010data documentation. The Insights Platform is served from
+  versioned deployment paths (e.g. beta-latest, prod, prime, and pinned builds
+  such as beta-9.05 / prod-7.47) embedded in the API URL. No public status page,
+  formal deprecation policy, or SLA page was found on the provider's public
+  surface, so no StatusPage or Deprecation pointer is emitted.
+versioning:
+  scheme: uri-path-deployment
+  detail: >-
+    API URLs embed the platform deployment/version, e.g.
+    https://www2.1010data.com/[1010-version]/api/... with named tracks
+    (beta-latest, prod, prime) and pinned build numbers.
+  docs: https://docs.1010data.com/DynamicAPI/DynamicAPI-Intro.html
+deprecation:
+  policy_url: null
+  sunset_header: false
+sla:
+  url: null
+status_page: null
+deprecated_operations: []

@@ -1,0 +1,42 @@
+generated: '2026-07-17'
+method: searched
+source: https://docs.1010data.com/index.html
+note: >-
+  1010data distributes its first-party SDKs and drivers directly from its own
+  download/documentation center rather than from public package registries (npm,
+  PyPI, Maven Central, NuGet). No public-registry packages were found. All entries
+  below are first-party client libraries documented in the 1010data Documentation
+  Center.
+packages:
+- language: python
+  registry: vendor
+  name: py1010 (1010data Python SDK / TenFrame)
+  url: https://docs.1010data.com/1010dataPythonSDK/index.html
+  download: https://www2.1010data.com/downloads/tools/python/py1010.zip
+  install: "download py1010.zip and pip install the matching .whl from the dist folder"
+  official: true
+- language: java
+  registry: vendor
+  name: 1010data Java SDK
+  url: https://docs.1010data.com/1010dataJavaSDK/index.html
+  official: true
+- language: dotnet
+  registry: vendor
+  name: 1010data .NET SDK
+  url: https://docs.1010data.com/1010dataDotNetSDK/index.html
+  official: true
+- language: r
+  registry: vendor
+  name: 1010data R SDK
+  url: https://docs.1010data.com/index.html
+  official: true
+- language: sql
+  registry: vendor
+  name: 1010data ODBC driver
+  url: https://www.1010data.com/resource/technical-interfaces/
+  official: true
+- language: sql
+  registry: vendor
+  name: 1010data JDBC driver
+  url: https://www.1010data.com/resource/technical-interfaces/
+  official: true

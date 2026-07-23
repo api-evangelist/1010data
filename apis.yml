@@ -1,8 +1,17 @@
 aid: 1010data
 name: 1010data
-description: '1010data is a company surfaced as a portfolio company of norwest-venture-partners and added
-  to the API Evangelist network as a stub for enrichment. Sector: unknown. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: >-
+  1010data is an enterprise big-data analytics and data-management company whose
+  Insights Platform combines a cloud-based columnar analytics engine (the
+  "Trillion-Row Spreadsheet"), a data-sharing marketplace, and a suite of
+  developer interfaces for querying and integrating large datasets. It serves
+  retail, consumer brands, capital markets, and other data-intensive industries.
+  Developers access the platform through the HTTP/XML API, the RESTful Dynamic
+  API, and first-party SDKs for Python (py1010 / TenFrame), Java, .NET, and R,
+  plus JDBC/ODBC drivers, an Excel add-in, and Power BI and Tableau connectors.
+  1010data was acquired by Advance (Advance/Newhouse) for $500 million in 2015 and
+  continues to operate the Insights Platform. This profile was enriched by the
+  API Evangelist pipeline from the company's public documentation center.
 url: https://raw.githubusercontent.com/api-evangelist/1010data/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,13 +19,61 @@ x-backed-by:
 - norwest-venture-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source:
+  - authentication
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
 modified: '2026-07-17'
+image: https://1010data.b-cdn.net/wp-content/uploads/2022/09/Featured-Image-2.png
 tags:
 - Company
-- Unknown
-apis: []
+- Data Analytics
+- Big Data
+- Business Intelligence
+- Cloud Analytics
+- Data Management
+- Retail Analytics
+- Consumer Insights
+- Capital Markets
+- Data Sharing
+apis:
+- name: 1010data XML API
+  description: >-
+    The 1010data XML API is an HTTP/XML facility whereby a client application can
+    access and query data on the 1010data Insights Platform database servers.
+    It is compatible with any language that supports HTTP transactions (Java,
+    C++, Python, PERL, Visual Basic) and drives the platform's Macro Language
+    query engine.
+  humanURL: https://docs.1010data.com/XMLAPI/index.html
+  baseURL: https://www2.1010data.com
+  properties:
+  - type: APIReference
+    url: https://docs.1010data.com/XMLAPI/index.html
+  - type: Documentation
+    url: https://docs.1010data.com/XMLAPI/Introduction/XMLAPI-Intro.html
+- name: 1010data Dynamic API
+  description: >-
+    The 1010data Dynamic API is a RESTful HTTP interface for writing client
+    applications that access and query data on the Insights Platform. It uses
+    session-based authentication and stateful QuickApp "environments" (tags),
+    with endpoints such as /api/!login and /api/new.
+  humanURL: https://docs.1010data.com/DynamicAPI/index.html
+  baseURL: https://www2.1010data.com
+  properties:
+  - type: APIReference
+    url: https://docs.1010data.com/DynamicAPI/index.html
+  - type: Documentation
+    url: https://docs.1010data.com/DynamicAPI/DynamicAPI-Intro.html
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
@@ -24,4 +81,47 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://1010data.com
+  url: https://www.1010data.com/
+- type: DeveloperPortal
+  url: https://docs.1010data.com/index.html
+- type: Documentation
+  url: https://docs.1010data.com/index.html
+- type: APIReference
+  url: https://docs.1010data.com/DynamicAPI/index.html
+- type: GettingStarted
+  url: https://docs.1010data.com/GettingStartedGuide/index.html
+- type: Support
+  url: https://support.1010data.com/
+- type: Blog
+  url: https://www.1010data.com/resource/news/
+- type: SignUp
+  url: https://www.1010data.com/login/
+- type: Login
+  url: https://www2.1010data.com/
+- type: TermsOfService
+  url: https://www.1010data.com/legal-disclaimer/
+- type: PrivacyPolicy
+  url: https://www.1010data.com/privacy-policy/
+- type: Authentication
+  url: authentication/1010data-authentication.yml
+- type: Packages
+  url: packages/1010data-packages.yml
+- type: SDKs
+  url: packages/1010data-packages.yml
+- type: CLI
+  url: cli/1010data-cli.yml
+- type: Components
+  url: components/1010data-components.yml
+- type: Lifecycle
+  url: lifecycle/1010data-lifecycle.yml
+- type: Conformance
+  url: conformance/1010data-conformance.yml
+- type: DomainSecurity
+  url: security/1010data-domain-security.yml
+- type: LLMsTxt
+  url: llms/1010data-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

@@ -1,0 +1,19 @@
+generated: '2026-07-17'
+method: searched
+source: https://docs.1010data.com/index.html
+name: DataBlazer command-line tools
+description: >-
+  1010data ships a family of first-party command-line tools, branded DataBlazer,
+  for moving data into and out of the Insights Platform and running batch
+  operations against it. These are documented in the 1010data Documentation
+  Center alongside the SDKs.
+install:
+- Download the DataBlazer command-line tools from the 1010data Documentation Center / downloads.
+commands:
+- name: TenUp
+  description: Command-line tool for uploading data to the 1010data Insights Platform.
+- name: TenDo
+  description: Command-line tool for executing 1010data operations/queries from the command line.
+- name: "Data Hauler"
+  description: Command-line data-movement/transfer tool for the Insights Platform.
+docs: https://docs.1010data.com/index.html
