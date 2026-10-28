@@ -64,6 +64,93 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-1010data is a company surfaced as a portfolio company of norwest-venture-partners and added to the API Evangelist network as a stub for enrichment. Sector: unknown. This profile is a lead awaiting the enrichment pipeline.
+1010data is an enterprise big-data analytics and data-management company whose Insights Platform combines a cloud-based columnar analytics engine (the "Trillion-Row Spreadsheet"), a data-sharing marketplace, and a suite of developer interfaces for querying and integrating large datasets. It serves retail, consumer brands, capital markets, and other data-intensive industries. Developers access the platform through the HTTP/XML API, the RESTful Dynamic API, and first-party SDKs for Python (py1010 / TenFrame), Java, .NET, and R, plus JDBC/ODBC drivers, an Excel add-in, and Power BI and Tableau connectors. 1010data was acquired by Advance (Advance/Newhouse) for $500 million in 2015 and continues to operate the Insights Platform. This profile was enriched by the API Evangelist pipeline from the company's public documentation center.
 
-Backed by: norwest-venture-partners — https://1010data.com
+**Areas:** Company · Data Analytics · Big Data · Business Intelligence · Cloud Analytics · Data Management · Retail Analytics · Consumer Insights · Capital Markets · Data Sharing
+
+## 1010data on APIs.io
+
+Everything profiled for 1010data is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/1010data/](https://apis.io/providers/1010data/)** — or go straight to one of the APIs or properties below.
+
+### APIs (2)
+
+- [1010data XML API](https://apis.io/apis/1010data/1010data-xml-api/) — The 1010data XML API is an HTTP/XML facility whereby a client application can access and query data on the 1010data Insights Platform database servers. It…
+- [1010data Dynamic API](https://apis.io/apis/1010data/1010data-dynamic-api/) — The 1010data Dynamic API is a RESTful HTTP interface for writing client applications that access and query data on the Insights Platform. It uses…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [1010Data Authentication](https://apis.io/security/1010data/1010data-authentication/)
+- [1010Data Domain Security](https://apis.io/security/1010data/1010data-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.1010data.com/)
+- [Documentation](https://docs.1010data.com/index.html)
+- [Getting started](https://docs.1010data.com/GettingStartedGuide/index.html)
+- [API reference](https://docs.1010data.com/DynamicAPI/index.html)
+- [Sign up](https://www.1010data.com/login/)
+- [Support](https://support.1010data.com/)
+- [Blog](https://www.1010data.com/resource/news/)
+- [Terms of service](https://www.1010data.com/legal-disclaimer/)
+- [Privacy policy](https://www.1010data.com/privacy-policy/)
+
+## API Evangelist rating
+
+**Kin Score 30.4** — thin · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 73.2 |
+| Contract quality | 0.0 |
+| Contract governance | 4.5 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 71.4 |
+| Access clarity | 34.2 |
+
+**Agent readiness 2.5** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 24.5** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/1010data/](https://apis.io/providers/1010data/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for 1010data: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/1010data/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
